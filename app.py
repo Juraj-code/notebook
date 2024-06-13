@@ -6,9 +6,10 @@ app = Flask(__name__)
 def hello_world():
     return 'Work in progress'
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True)
 
 @app.route('/hello')
 def hello():
     return 'Test Test'
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', debug=True)

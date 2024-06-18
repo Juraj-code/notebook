@@ -3,6 +3,11 @@ from app.config import Config
 from flask_sqlalchemy import SQLAlchemy
 import os
 
+# import logging
+# from logging import RotationgFileHandler, SMTPHandler
+
+# TODO: Implementuj logovanie
+
 app = Flask(__name__)
 app.config.from_object(Config)
 
